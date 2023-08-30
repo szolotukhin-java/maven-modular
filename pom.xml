@@ -41,7 +41,11 @@
               <goals>
                 <goal>use-latest-releases</goal>
               </goals>
-
+              <configuration>
+                <includes>
+                  <include>io.reliza:versioning</include>
+                </includes>
+              </configuration>
 
             </execution>
           </executions>
