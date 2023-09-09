@@ -3,6 +3,12 @@
 ## I can do that in the following way:
 
 = Crate a separate maven module for tests
+    pros (+)
+        ?
+    cons (-)
+        We need to exclude all main submodules via command line or maven profiles
+        We need to chang a  default maven layout
+
 = I can set main source to empty directory
 = I can set the phase none to each another plugins which is not related to the test phase
     pros (+)

@@ -33,7 +33,7 @@
                             <phase>compile</phase>
                             <configuration>
                                 <target>
-                                    <sleep seconds="10" />
+                                    <sleep seconds="1" />
                                 </target>
                             </configuration>
                             <goals>
@@ -45,7 +45,7 @@
                             <phase>test</phase>
                             <configuration>
                                 <target>
-                                    <sleep seconds="10" />
+                                    <sleep seconds="1" />
                                 </target>
                             </configuration>
                             <goals>
