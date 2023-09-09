@@ -26,3 +26,6 @@
         We do not execute another plugins on the test phase
         We need to execute a several maven plugins to run a test (resource, compile, test). So we will be run a JVM 3 times
            
+## Open quests 
+
+= Do we really need to split main source and unit tests ? 
