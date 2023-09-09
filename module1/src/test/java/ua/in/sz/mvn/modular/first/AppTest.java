@@ -14,6 +14,7 @@ public class AppTest extends TestCase {
     }
 
     public void testApp() {
+        App.main(new String[0]);
         assertTrue(true);
     }
 }
