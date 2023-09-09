@@ -23,11 +23,11 @@
       <scope>test</scope>
     </dependency>
 
-    <dependency>
-      <groupId>io.reliza</groupId>
-      <artifactId>versioning</artifactId>
-      <version>2021.07.5</version>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>io.reliza</groupId>-->
+<!--      <artifactId>versioning</artifactId>-->
+<!--      <version>2021.07.5</version>-->
+<!--    </dependency>-->
 
   </dependencies>
 </project>
