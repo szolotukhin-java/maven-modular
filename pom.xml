@@ -19,4 +19,42 @@
         <module>module1</module>
         <module>module2</module>
     </modules>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-antrun-plugin</artifactId>
+                    <version>3.1.0</version>
+                    <executions>
+                        <execution>
+                            <id>slowly-compilation-emulation</id>
+                            <phase>compile</phase>
+                            <configuration>
+                                <target>
+                                    <sleep seconds="10" />
+                                </target>
+                            </configuration>
+                            <goals>
+                                <goal>run</goal>
+                            </goals>
+                        </execution>
+                        <execution>
+                            <id>slowly-testing-emulation</id>
+                            <phase>test</phase>
+                            <configuration>
+                                <target>
+                                    <sleep seconds="10" />
+                                </target>
+                            </configuration>
+                            <goals>
+                                <goal>run</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
