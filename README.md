@@ -2,12 +2,18 @@
 
 ## I can do that in the following way:
 
+= We can execuet mvn clean install with exclude test execution (test -> phase none, integration-test -> phase none, verify -> none).
+  After that, we can directly execute a test plugin, integration-test and verify plugin
+    pros (+)
+        We don't need to change default maven layout
+    cons (-)
+
 = Crate a separate maven module for tests
     pros (+)
         ?
     cons (-)
         We need to exclude all main submodules via command line or maven profiles
-        We need to chang a  default maven layout
+        We need to change a default maven layout
 
 = I can set main source to empty directory
 = I can set the phase none to each another plugins which is not related to the test phase
