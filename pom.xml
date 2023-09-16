@@ -20,4 +20,13 @@
         <module>module2</module>
         <module>module3</module>
     </modules>
+
+    <profiles>
+        <profile>
+            <id>module4-profile</id>
+            <modules>
+                <module>module4</module>
+            </modules>
+        </profile>
+    </profiles>
 </project>
