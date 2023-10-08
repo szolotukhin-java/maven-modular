@@ -3,16 +3,19 @@ java.lang.IllegalStateException
 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+
 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:114)
 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:83)
 	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
 	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+
 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:260)
 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:175)
 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:103)
 	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:815)
 	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:265)
 	at org.apache.maven.cli.MavenCli.main(MavenCli.java:188)
+
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
